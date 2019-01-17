@@ -1,0 +1,38 @@
+{
+    "name": "digitalcloud/laravel-model-notes",
+    "description": "A package to enable assigning notes to Eloquent Models",
+    "keywords": [
+        "digitalcloud",
+        "laravel-note"
+    ],
+    "homepage": "https://github.com/digitalcloud/laravel-model-notes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motaz Marouf",
+            "email": "m.marouf@dce.sa",
+            "homepage": "https://dce.sa",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalCloud\\ModelNotes\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DigitalCloud\\ModelNotes\\ModelNotesServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
