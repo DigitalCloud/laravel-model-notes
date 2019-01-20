@@ -16,7 +16,8 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "digitalcloud/laravel-blameable": "*"
     },
     "autoload": {
         "psr-4": {
