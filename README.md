@@ -99,9 +99,3 @@ You can change the model used by specifying a class name in the `note_model` key
 
 You can change the column name used in the note table (`model_id` by default) when using a custom migration where you changed 
 that. In that case, simply change the `model_primary_key_attribute` key of the `model-notes` config file. 
-
-
-## Support us
-
-DigitalCloud is a web development agency based in Ggaddah, SA. You'll find an overview of all our open source projects [on our website](https://dce.sa/opensource).
-
