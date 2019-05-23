@@ -12,7 +12,7 @@ This package provides a `HasNotes` trait that, once installed on a model, allows
 
 ```php
 // add a note
-$model->addNote('New Note Here');
+$model->setNote('New Note Here');
 
 // get all notes
 $model->notes();
@@ -82,7 +82,7 @@ class YourEloquentModel extends Model
 You can add a new note like this:
 
 ```php
-$model->addNote('new note');
+$model->setNote('new note');
 ```
 
 ### Retrieving notes
