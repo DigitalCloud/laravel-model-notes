@@ -14,9 +14,7 @@ trait HasNotes
 
     public function setNote(string $note): self
     {
-
-        $newNote = $this->notes()->create(['note' => $note]);
-
+        $this->notes()->create(['note' => $note]);
         return $this;
     }
 
